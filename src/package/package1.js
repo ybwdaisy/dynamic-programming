@@ -40,7 +40,9 @@ var package = function (w, weightArr, valueArr) {
         }
     }
   }
+  console.log(JSON.stringify(tmpArr));
   console.log(tmpArr[n][w]);
 };
 
-package(10, [2, 2, 6, 5, 4], [6, 3, 5, 4, 6])
+// package(10, [12, 1, 4, 1, 2], [4, 2, 10, 1, 2])
+package(10, [12, 1, 4, 1, 2], [4, 2, 10, 1, 2])
